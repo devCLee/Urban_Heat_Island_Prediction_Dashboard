@@ -1,8 +1,14 @@
-# Statement of Project Details: Urban Heat Island Prediction Dashboard
+# NASA SPACE APPS SEOUL 2025
+# Team Skyscraper: Urban Heat Island Prediction Dashboard
 
 ## Project Overview
 
 The **Urban Heat Island Prediction Dashboard** is an interactive, data-driven tool designed to predict, visualize, and analyze urban heat island (UHI) phenomena. Utilizing advanced machine learning models and geospatial data processing, the dashboard provides actionable insights into temperature anomalies, helping city planners, researchers, and citizens understand and mitigate the effects of UHIs in metropolitan areas.
+
+## Usage
+```
+streamlit run app.py
+```
 
 ## Functionality
 
@@ -10,8 +16,7 @@ The dashboard fuses historical temperature records, land use data, and satellite
 
 - **Dynamic heat maps:** Visualize predicted temperature hotspots with temporal context.
 - **Custom region selection:** Users select districts or points of interest to review local UHI predictions.
-- **Overlay controls:** Toggle layers such as vegetation, building density, and land cover for multi-factor analysis.
-- **Historical vs. predictive analysis:** Compare past trends against model forecasts to assess intervention impacts.
+- **Overlay controls:** Toggle NASA data applied custom tileset layer of forest loss for multi-factor analysis.
 
 ## Benefits
 
@@ -32,22 +37,20 @@ The project aims to:
 - **Programming Languages:**  
   - Python (Jupyter Notebook, data preprocessing, model training)
 - **Frameworks/Libraries:**  
-  - Scikit-learn, XGBoost, PyTorch (ML algorithms)
+  - Scikit-learn (ML algorithms)
   - Pandas, NumPy (tabular and timeseries data handling)
   - Folium, Plotly, or Streamlit (dashboard and map visualizations)
 - **Geospatial Data Tools:**  
   - GeoPandas (spatial joins and operations)
   - Mapbox or Leaflet (interactive mapping and tile overlays)
 - **Data Sources:**  
-  - NASA/NOAA satellite imagery
-  - Local weather stations (historical temperature data)
-  - Urban infrastructure datasets
-- **Deployment:**  
-  - Cloud/JupyterHub for real-time user access
+  - World Resources Institute (WRI) Data Explorer (Global drivers of forest loss at 1 km resolution - Version 1.2)
+  - Microsoft Planetary Computer STAC API (Landsat 8, Sentinel-2, Sentinel 1, USGS 3DEP Lidar DSM/DTM/HAG)
+  - Center for Open Science (Ground temperature data over New York City on July 24, 2021)
 
 ## Creativity and Distinctiveness
 
-- **Integrated Predictive Analytics:** Combines spatial and temporal machine learning models for real-world UHI forecasting—unlike static visualizations, users see future projections and can simulate interventions.
+- **Integrated Predictive Analytics:** Combines spatial and temporal machine learning models for real-world UHI forecasting—unlike static visualizations, users see predictions of urban heat island hotspots and can simulate interventions.
 - **Custom Tilesets and Map Layers:** Uses bespoke Mapbox tilesets for precise geographic detail and multi-layer visualizations, allowing users to contextualize heat intensity alongside urban features.
 - **User-Centric Interactivity:** Designed for accessibility by technical and non-technical stakeholders, facilitating broad engagement and impact.
 
@@ -56,7 +59,6 @@ The project aims to:
 - **Data Availability and Quality:** Sought out high-resolution, recent datasets to ensure reliable predictions.
 - **Scalability:** Designed modular pipelines—easy to expand to other cities or incorporate new data without major overhaul.
 - **Ethical Review:** Considered privacy in publicly displayed location data; prioritized open data sources and algorithms for transparency.
-- **User Feedback:** Incorporated suggestions from urbanists and environmental scientists to refine dashboard usability and relevance.
 
 ***
 
