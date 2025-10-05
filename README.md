@@ -18,6 +18,11 @@ The dashboard fuses historical temperature records, land use data, and satellite
 - **Custom region selection:** Users select districts or points of interest to review local UHI predictions.
 - **Overlay controls:** Toggle NASA data applied custom tileset layer of forest loss for multi-factor analysis.
 
+![app_image_1](https://assets.spaceappschallenge.org/media/images/app_image_1.width-1024.png)
+![app_image_2](https://assets.spaceappschallenge.org/media/images/app_image_2_jDXoc8Y.width-1024.png)
+![app_image_3](https://assets.spaceappschallenge.org/media/images/app_image_3_ssetMek.width-1024.png)
+![app_image_4](https://assets.spaceappschallenge.org/media/images/app_image_4.width-1024.png)
+
 ## Benefits
 
 - **Policy Support:** Equips urban planners and policymakers with accurate, high-resolution forecasts to target cooling interventions (e.g., green infrastructure, zoning changes).
@@ -62,7 +67,7 @@ The project aims to:
 
 ***
 
-**Conclusion:**  
+## Conclusion  
 The Urban Heat Island Prediction Dashboard demonstrates an innovative application of machine learning and geospatial visualization for urban climate resilience. Through this interactive tool, stakeholders can identify vulnerabilities, predict future hotspots, and design smarter cities for a warming world.
 
 ***
